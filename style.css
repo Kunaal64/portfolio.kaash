@@ -185,7 +185,8 @@ section {
   height: 200px; /* Adjust the size as needed */
   margin: auto;
   border: 5px solid #ddd; /* Adds a subtle border for an aesthetic look */
-  transform: translateX(-50px);
+  position:relative;
+  z-index: -2;
 }
 
 .section__pic-container img {

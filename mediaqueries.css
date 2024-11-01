@@ -101,3 +101,22 @@
     text-align: justify;
   }
 }
+
+
+
+@media (max-width: 768px) {
+  .section__pic-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .section__pic-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+}
